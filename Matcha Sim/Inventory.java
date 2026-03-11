@@ -13,7 +13,7 @@ public class Inventory {
 
     public void displayInventory(){
         for(Item item: items){
-            System.out.println();
+            System.out.println("YOUR ORDER:\n" + "Drink: " + item.getName() + ", Quantity: " + item.getQuantity() + ", Price: " + item.getPrice());
         }
     }
 }
